@@ -1,0 +1,156 @@
+body {
+    margin:0 ;
+}
+
+section {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+html {
+    background-color: rgb(37, 37, 37);
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10vw 0 10vw;
+}
+
+.title-example a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.title-example a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.title-example {
+    margin-bottom: 2vh;
+}
+
+button {
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    background-color: rgb(48, 49, 48);
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(80, 74, 74);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+label {
+    color: white;
+}
+
+input[type="range"] {
+    width: 15%;
+}
+
+.button-example {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5vw;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 2vh;
+    padding: 5vw;
+    background-color: rgb(48, 49, 48);
+    border-radius: 2vh;
+    -webkit-border-radius: 2vh;
+    -moz-border-radius: 2vh;
+    -ms-border-radius: 2vh;
+    -o-border-radius: 2vh;
+}
+
+.flex-direction-content {
+    background-color: rgb(48, 49, 48);
+    padding: 2vw;
+    border: white solid 0.2em;
+    resize: both;
+}
+.flex-direction-content a {
+    background-color: rgb(80, 74, 74);
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    margin: 0.5vw;
+}
+
+.flex-d-r {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-d-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap-content {
+    background-color: rgb(48, 49, 48);
+    padding: 2vw;
+    border: white solid 0.2em;
+    overflow: hidden;
+    resize: both;
+}
+.flex-wrap-content a {
+    background-color: rgb(80, 74, 74);
+    min-width: 8vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    margin: 0.5vw;
+}
+
+.flex-content {
+    background-color: rgb(48, 49, 48);
+    padding: 2vw;
+    border: white solid 0.2em;
+}
+.flex-content .flex-card {
+    background-color: rgb(80, 74, 74);
+    width: 15%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    margin: 0.5vw;
+    flex: 1;
+}
+
+.flex-card-1 {
+    background-color: rgb(80, 74, 74);
+    width: 15%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+    margin: 0.5vw;
+    flex: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
